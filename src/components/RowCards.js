@@ -2,8 +2,8 @@ import React from "react";
 
 const RowCards = ({ handlechange }) => {
   return (
-    <div className="flex justify-end">
-      <div className=" mb-5 " style={{ maxWidth: "200px" }}>
+    <div className="flex justify-end d-hidden">
+      <div className="  " style={{ maxWidth: "200px" }}>
         <form
           className="container"
           onSubmit={(e) => {
@@ -11,8 +11,10 @@ const RowCards = ({ handlechange }) => {
           }}
         >
           <fieldset>
-            <div className="form-group">
-              <label htmlFor="disabledTextInput">Producto por filas ?</label>
+            <div className="form-group my-5">
+              <label className="text-white" htmlFor="disabledTextInput">
+                Producto por filas ?
+              </label>
               <select
                 className="form-select"
                 aria-label="rowCards"

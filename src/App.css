@@ -45,19 +45,27 @@ textarea:focus {
 }
 
 h1 {
-  font-size: 3vw;
-
-  /* font-size: 64px; */
+  font-size: clamp(1rem, 7vw, 3rem);
   font-weight: 600;
   color: #29284a;
 }
 
+.p-main {
+  font-size: clamp(1rem, 4vw, 1.8rem);
+
+  color: #29284a;
+}
+
+.icon {
+  font-size: clamp(0.5rem, 3vw, 1.2rem);
+}
+
 .bigText {
-  font-size: 3vw;
+  font-size: clamp(1rem, 7vw, 3rem);
   font-weight: 200;
 }
 .phone {
-  font-size: 1.5vw;
+  font-size: clamp(1rem, 4vw, 1.8rem);
   background-color: #6f9fdc;
   padding: 10px;
   border-radius: 10px;
@@ -68,13 +76,7 @@ h1 {
 }
 
 .icon {
-  height: 3.2vw;
-}
-
-.p-main {
-  font-size: 28px;
-  font-size: 1.5vw;
-  color: #29284a;
+  height: 5vh;
 }
 
 /* Main */

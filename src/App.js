@@ -11,7 +11,7 @@ import Superior from "./components/Superior";
 
 const App = () => {
   const [products, setProducts] = useState([]);
-  const [rowCards, setRowCards] = useState(4);
+  const [rowCards, setRowCards] = useState("4");
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage, setPostsPerPage] = useState(6);
   const [modal, setModal] = useState(false);

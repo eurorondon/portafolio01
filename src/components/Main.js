@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div style={{ background: "#F5F5F5" }}>
       <div className="container">
-        <div className="row ">
+        <div className=" d-flex flex-column   flex-md-row ">
           <div className="col  d-flex flex-column justify-center align-items-center ">
             <h1>Bienvenido, lista de productos. Esperemos te guste</h1>
             <p className="p-main my-5">
